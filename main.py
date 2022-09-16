@@ -133,8 +133,10 @@ coordinates2 = [(4, 5), (6, 7), (80, 34)]
 print(coordinates2[1][1])
 # we use parentheses not [] in tuples
 my_tuple1 = (1, 2, 3, 4)
+print(my_tuple1[1])
 # get the second item in the tuple1 above
 my_tuple = (1, 2, (10, 20), 4)
+print(my_tuple[2])
 # get the second item in the 3rd item above
 #hint multidimensional array thinking
 
