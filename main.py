@@ -77,12 +77,15 @@
 # print(len(luckyNumbers))
 #####################################challenge 2#######################################################
 # Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
+
 word_list = ["Simple", "is", "better", "than", "complex."]
 print(' '.join(word_list))
+
 # Print the following text in uppercase, using the specific string method:
 
 text1 = "Especially in electronic communications, writing in all caps is equivalent to yelling."
 print(text1.upper())
+
 #substrings
 # Take every third character starting from the ninth to the end of the sentence, and print the result.
 
@@ -93,12 +96,14 @@ print(text2[8::3])
 
 text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
 print(text3[::-1])
+
 # Extract the first word of the following sentence using slicing, and display it on the screen:
 
 sentence = "Controlling complexity is the essence of programming"
-all_words = sentence. split()
+all_words = sentence.split()
 first_word = all_words[0]
-print(first_word)
+print("first word is : " + first_word)
+
 # create a text input that asks for choice of food
 #create an empty list variable called food
 # add 3 items from the user into the empty list
