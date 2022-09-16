@@ -142,7 +142,8 @@ print(my_tuple[2])
 
 # place these numbers in separate variables from the tuple below
 t = (1, 2, 3)
-
+x,y,z = t
+print(x,y,z)
 #get me the length of the above tuple --- there are two ways of doing this... len(), count()...  use count if you want to get how many times an item appears in a tuple
 
 # Use a tuple method to count the number of times the value 2 appears in the following tuple, and display the result (integer) on the screen:
